@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio Synth</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="synth.js"></script>
+</head>
+<body>
+	<select id="waveform2">
+	  <option value="0">Sine</option>
+	  <option value="1">Square</option>
+	  <option value="2">Sawtooth</option>
+	  <option value="3">Triangle</option>
+	</select>
+	
+	<select id="waveform1">
+	  <option value="0">Sine</option>
+	  <option value="1">Square</option>
+	  <option value="2">Sawtooth</option>
+	  <option value="3">Triangle</option>
+	</select>
+	
+	<input type="range"  id="wt-position" min="0" max="100" />
+	<input type="range"  id="frequency" min="0" max="500" />
+	<input type="range"  id="amplitude" min="0" max="100" />
+
+</body>
+</html>
